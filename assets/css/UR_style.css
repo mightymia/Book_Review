@@ -1,0 +1,19 @@
+* {
+	margin: 0em;
+	padding: 0em;
+}
+#container {
+	margin: 1em;
+}
+h3, h4{
+	margin-bottom: .5em;
+}
+p {
+	margin-bottom: .25em;
+}
+li {
+	list-style: none;
+}
+#review_list {
+	margin-top: .75em;
+}

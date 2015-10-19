@@ -1,0 +1,27 @@
+#book_reviews{
+		margin-left: 1em;
+		margin-top: 1em;
+		width: 30em;
+	}
+	h3 {
+		color: green;
+		margin-left: 1em;
+	}
+	.well {
+		margin-left: 1.5em;
+	}
+	.list_group {
+		position: relative;
+		left: 0em;
+		top: 0em;
+	}
+	.list-group-item {
+		width: 20em;
+		left: 5em;
+	}
+	#list_title {
+		position: relative;
+		width: 20em;
+		left: 5em;
+		top: 0em;
+	}

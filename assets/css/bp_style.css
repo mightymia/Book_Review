@@ -1,0 +1,16 @@
+#container {
+	margin: 1em;
+
+}
+#reviews {
+	width: 25em;
+}
+#new_review {
+	position: relative;
+	left: 10em;
+	top: -5em;
+	width: 10em;
+}
+label {
+	margin-top: .5em; 
+}
