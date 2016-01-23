@@ -13,13 +13,13 @@ class book_review extends CI_Model
 
 	function book_list()
 	{
-		return $this->db->query('SELECT title, id FROM books')->result_array();
+		return $this->db->query('SELECT title, id FROM books ORDER BY created_at DESC')->result_array();
 	}
 
 	function add_book($book)
 	{
-		$query = "INSERT INTO books (title, author, created_at, updated_at) VALUES (?, ?, now(), now())";
-		$values = array($book['title'], $book['author']);
+		$query = "INSERT INTO books (title, author, image, created_at, updated_at) VALUES (?, ?, ?, now(), now())";
+		$values = array($book['title'], $book['author'], $book['image']);
 		return $this->db->query($query, $values);
 	}
 

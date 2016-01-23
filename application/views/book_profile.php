@@ -13,6 +13,7 @@
 	<div id='container' class='row'>
 		<h3><?= $book['title']; ?></h3>
 		<p>Author: <?= $book['author'];?></p>
+		<img src= "<?= $book['image'];?>" width="250" height="300" class="col-md-2">
 		<div id='reviews'class="col-md-6">
 			<?php foreach ($reviews as $review) { ?>
 				<p>Rating: <?php for ($i=0; $i < $review['rating'] ; $i++) { 

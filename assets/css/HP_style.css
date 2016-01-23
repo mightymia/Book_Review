@@ -2,8 +2,20 @@
 	margin: 0em;
 	padding: 0em;
 }
-h3 {
+#container {
+	background-image: url('/assets/background.jpg');
+	background-repeat: repeat-x;
+	height: 100em;
+	width: 50em;
+}
+h2 {
 	margin-top: .5em;
+	margin-left: .5em;
+	padding-top: .30em;
+	color: #e63a00;
+}
+#tagline {
+	margin-top: 1em;
 	margin-left: .5em;
 }
 #registration, #sign_in {
@@ -13,6 +25,7 @@ h3 {
 	display: inline-block;
 	margin: 2em;
 	vertical-align: top;
+	background-color: white;
 }
 input {
 	margin-top: .10em;

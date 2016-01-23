@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div id='container'>
-		<h3>UserName: <?= $user['username']; ?></h3>
+		<h3>Username: <?= $user['username']; ?></h3>
 		<p>Name: <?= $user['name'];?></p>
 		<p>Email: <?= $user['email'];?></p>
 		<p>Total Reviews: <?= $user['COUNT(review)'];?></p>

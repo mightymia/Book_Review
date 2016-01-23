@@ -20,6 +20,8 @@
 				</select>
 				<label>Or add a new author</label>
 				<input type='text' name='new_author'>
+			<label>Cover Image:</label>
+				<input type='text' name='image'>
 			<label>Review:</label>
 			<textarea name='review' rows='4' cols='15'></textarea>
 			<label>Rating:</label>

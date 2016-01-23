@@ -13,7 +13,7 @@ class book_reviews extends CI_Controller
 			$author = $this->input->post('author');
 		}
 		$book_details = array('title' =>$this->input->post('title', TRUE),
-					   'author' => $author);
+					   'author' => $author, 'image' =>$this->input->post('image'));
 
 		$this->book_review->add_book($book_details);
 		$book = $this->book_review->get_book($book_details['title']);
