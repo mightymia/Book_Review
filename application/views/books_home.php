@@ -17,7 +17,7 @@
 		<h4>Recent Book Reviews:</h4>
 		<?php $i = 0;
 			foreach ($reviews as $review) { 
-				if (++$i === 3){ break; }?>
+				if (++$i === 5){ break; }?>
 				<a href="/book_profile/<?= $review['books_id']; ?>"><?= $review['title']; ?></a>
 				<p>Rating: <?php for ($i=0; $i < $review['rating'] ; $i++) { 
 						echo '<span class="glyphicon glyphicon-star" aria-hidden="true">';

@@ -1,6 +1,7 @@
+
 #container {
+	top: 3em;
 	width: 15em;
-	border: .25em solid silver;
 	padding: .5em;
 	margin-left: 1em;
 }

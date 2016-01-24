@@ -3,17 +3,17 @@
 	<style type="text/css">
 		#logoff {
 			position: relative;
-			left: 40em;
+			left: 6em;
 			top: .75em;
 		}
 		#add{
 			position: relative;
-			left: 35em;
+			left: 4em;
 			top: .75em;
 		}
 		#home {
 			position: relative;
-			left: 30em;
+			left: 2em;
 			top: .75em;
 		}
 	</style>
